@@ -1,0 +1,69 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / distribution
+build/
+dist/
+*.egg-info/
+
+# Installer files / logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Playwright artifacts
+playwright-report/
+test-results/
+playwright-debug.log
+
+# Local Playwright user data and session (see [`STORAGE`](ig_followers_scraper.py))
+userdata/
+auth.json
+
+# Output / results (see [`OUTPUT_FILE`](ig_followers_scraper.py))
+instagram_followers.xlsx
+*.xlsx
+
+# Environment / secrets
+.env
+.env.*
+local_settings.py
+*.key
+*.pem
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Misc
+*.pid
+*.seed
+.ipynb_checkpoints
+.python-version
+Pipfile.lock
